@@ -2,4 +2,4 @@
 
 (defn greeting
   [name]
-  (str "Hello, " name))
+  (str "Hello, " name "!"))

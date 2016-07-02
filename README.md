@@ -1,14 +1,5 @@
 # travis-ci_demo
-
-A Clojure library designed to ... well, that part is up to you.
-
-## Usage
-
-FIXME
+A Clojure project scaffold to try out [Travis-CI](https://travis-ci.org/). Not much to see here.
 
 ## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+See LICENSE

@@ -1,1 +1,8 @@
 language: clojure
+deploy:
+  provider: releases
+  api_key:
+    secure: QCSeKIyaUoVia7fKDGW5ihs3p/Ou2MB8G203+EikIiF7wE/ipwWAN1CrCOD3vsoZPnXRXezmFKmrwJd8FoK+yDwJjIuC0qFipgZGFK87Xij1TdgUVUiYdOkpa640clN7viISOMBV+IT7cV11Sdk8mbaedle3uspIKuvv7XCjylgBXcM1/EIlBp68Dsk3SNjMeemty0DaBgC2JbPhUDL0sz1an2+IqxjMrjTb/ZlDEqSK2iGUSd0nmQ+A5uyYokljbJL1MfXPXMjYioHxckpReUitBj2Ax2Bevwefmtcugae3a8X88rkQI//KvdTDJXMbagsFAeYdAYTO2kamWwfAKGWZqTKs5caY22mwCTB2IoBCrg9qPWwHortgm2fnap4tjBbiU07tKKkczW03YFWd9CuS+1k70+n1N+91z3dnlxHIGKPTch8twYythqeDSi+R2rWEpHp/BpLpAfbZ/K38cfTrD6Xq/R8a3qWV6qhTcswm/bgfDPF07fWaz1953oxWO0x6bm5dRSdhv5sRZOgaN5VDMz7duwfi3Zwn/+Om8sgzLQR2zl3gVS6JNGnveri6hsJ3v1tPIsUu3NMuUX4wBvc7l36wNwhfwskJYNDs4UIB5xVQismp6ZVxjp24KoSBjF2nkOGN50ux5P0WGxzFzMSNi1QFpANUliUrl0K4tVg=
+  file: target/travis-ci_demo-0.1.0-SNAPSHOT-standalone.jar
+  on:
+    repo: mhaji/travis-ci_demo

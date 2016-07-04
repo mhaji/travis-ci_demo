@@ -7,3 +7,4 @@ deploy:
   file: target/travis-ci_demo-0.1.0-SNAPSHOT-standalone.jar
   on:
     repo: mhaji/travis-ci_demo
+  skip_cleanup: true
